@@ -1,0 +1,32 @@
+{
+  "name": "wxapp-observers",
+  "version": "1.0.0",
+  "description": "微信小程序一个兼容监听函数的工具",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wxapp",
+    "weapp",
+    "watch",
+    "observers",
+    "miniprogram"
+  ],
+  "author": "fatwill",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-transform-function-bind": "^6.22.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+    "@babel/plugin-proposal-function-bind": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/runtime": "^7.3.4",
+    "babel-loader": "^8.0.0-beta.0",
+    "webpack": "^4.29.6"
+  }
+}
