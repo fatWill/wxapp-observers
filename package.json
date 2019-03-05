@@ -1,6 +1,6 @@
 {
   "name": "wxapp-observers",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "微信小程序一个兼容监听函数的工具",
   "main": "dist/observers.js",
   "scripts": {
