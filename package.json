@@ -1,8 +1,8 @@
 {
   "name": "wxapp-observers",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "微信小程序一个兼容监听函数的工具",
-  "main": "webpack.config.js",
+  "main": "dist/observers.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,5 +28,16 @@
     "@babel/runtime": "^7.3.4",
     "babel-loader": "^8.0.0-beta.0",
     "webpack": "^4.29.6"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatWill/wxapp-observers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fatWill/wxapp-observers/issues"
+  },
+  "homepage": "https://github.com/fatWill/wxapp-observers#readme"
 }
